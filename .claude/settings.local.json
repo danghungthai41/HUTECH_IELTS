@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Bash(curl -s -m 90 -X POST http://localhost:3000/api/writing/ideas -H \"Content-Type: application/json\" -d '{\"task\":\"task2\",\"prompt\":\"Some people think technology makes life complex. To what extent do you agree?\"}' -w \"\\\\n[HTTP %{http_code}]\\\\n\")",
+      "Bash(python3 -c \"import sys; t=sys.stdin.read\\(\\); print\\(t[:600]\\)\")",
+      "Bash(lsof -iTCP -sTCP:LISTEN -P)",
+      "Bash(curl -s -m 120 -X POST http://localhost:3002/api/writing/ideas -H \"Content-Type: application/json\" -d '{\"task\":\"task2\",\"prompt\":\"Some people think technology makes life complex. To what extent do you agree?\"}' -w \"\\\\n[HTTP %{http_code}]\")",
+      "Bash(python3 -c 'import sys,json,re; t=sys.stdin.read\\(\\); m=re.search\\(r'\\\\''\\\\[HTTP \\(\\\\d+\\)\\\\]'\\\\'',t\\); body=t[:t.rfind\\('\\\\''[HTTP'\\\\''\\)]; print\\('\\\\''status'\\\\'',m.group\\(1\\) if m else '\\\\''?'\\\\''\\); *)",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -m 90 -X POST http://localhost:3002/api/reading/explain -H \"Content-Type: application/json\" -d '{\"passage\":\"The Great Barrier Reef is the worlds largest coral reef system located off Australia. It is composed of over 2900 reefs.\",\"question\":\"Where is the Great Barrier Reef located?\",\"correctAnswer\":\"Australia\",\"studentAnswer\":\"Asia\",\"mode\":\"explain\"}' -w \"\\\\n[HTTP %{http_code}]\")",
+      "Bash(curl -s -m 90 -X POST http://localhost:3002/api/writing/ideas -H \"Content-Type: application/json\" -d '{\"task\":\"task2\",\"prompt\":\"Some people think that technology has made life more complex. To what extent do you agree or disagree?\"}' -w \"\\\\n[HTTP %{http_code}]\")",
+      "Bash(python3 -c ' *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(npm run *)",
+      "Bash(curl -s -m 90 -X POST http://localhost:3000/api/writing/ideas -H \"Content-Type: application/json\" -d '{\"task\":\"task2\",\"prompt\":\"Some people think that technology has made life more complex. To what extent do you agree or disagree?\"}' -w \"\\\\n[HTTP %{http_code}]\")",
+      "Bash(pkill -f \"next-server\")",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "Bash(git config *)",
+      "Bash(gh auth *)"
+    ]
+  }
+}

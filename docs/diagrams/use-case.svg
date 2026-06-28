@@ -1,0 +1,94 @@
+<svg width="680" viewBox="0 0 680 560" role="img" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+<title>So do use case he thong luyen thi IELTS</title>
+<desc>Hoc vien va khach dung thu dang nhap roi lam bai 4 ky nang, moi ky nang include AI cham diem va AI goi y qua Groq; admin quan ly de thi; du lieu luu o MySQL.</desc>
+<rect width="680" height="560" fill="#ffffff"/>
+<defs>
+<marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+<path d="M0,0 L7,3 L0,6 Z" fill="#b45309"/>
+</marker>
+</defs>
+
+<rect x="140" y="55" width="388" height="478" rx="14" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="334" y="80" text-anchor="middle" font-size="14" font-weight="500" fill="#475569">He thong hutechIELTShacker</text>
+
+<g stroke="#64748b" stroke-width="1.3" fill="none">
+<line x1="78" y1="245" x2="166" y2="105"/>
+<line x1="78" y1="245" x2="166" y2="165"/>
+<line x1="78" y1="245" x2="166" y2="225"/>
+<line x1="78" y1="245" x2="166" y2="285"/>
+<line x1="78" y1="245" x2="166" y2="345"/>
+<line x1="78" y1="245" x2="166" y2="405"/>
+<line x1="78" y1="245" x2="166" y2="470"/>
+</g>
+
+<g stroke="#b45309" stroke-width="1.3" stroke-dasharray="5 3" fill="none" marker-end="url(#ah)">
+<line x1="347" y1="165" x2="372" y2="183"/>
+<line x1="347" y1="345" x2="372" y2="197"/>
+<line x1="347" y1="225" x2="372" y2="283"/>
+<line x1="347" y1="285" x2="372" y2="297"/>
+</g>
+
+<g stroke="#64748b" stroke-width="1.3" fill="none">
+<line x1="512" y1="190" x2="572" y2="312"/>
+<line x1="512" y1="290" x2="572" y2="318"/>
+<line x1="347" y1="405" x2="572" y2="330"/>
+<line x1="612" y1="135" x2="514" y2="465"/>
+<line x1="512" y1="470" x2="574" y2="428"/>
+</g>
+
+<g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round">
+<circle cx="55" cy="212" r="11" fill="#e2e8f0"/>
+<line x1="55" y1="223" x2="55" y2="252"/>
+<line x1="38" y1="233" x2="72" y2="233"/>
+<line x1="55" y1="252" x2="42" y2="270"/>
+<line x1="55" y1="252" x2="68" y2="270"/>
+</g>
+<text x="55" y="290" text-anchor="middle" font-size="12.5" font-weight="500" fill="#334155">Hoc vien</text>
+<text x="55" y="306" text-anchor="middle" font-size="11.5" fill="#64748b">/ Khach dung thu</text>
+
+<g stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round">
+<circle cx="625" cy="82" r="11" fill="#e2e8f0"/>
+<line x1="625" y1="93" x2="625" y2="122"/>
+<line x1="608" y1="103" x2="642" y2="103"/>
+<line x1="625" y1="122" x2="612" y2="140"/>
+<line x1="625" y1="122" x2="638" y2="140"/>
+</g>
+<text x="625" y="160" text-anchor="middle" font-size="12.5" font-weight="500" fill="#334155">Admin</text>
+
+<g fill="#f8fafc" stroke="#64748b" stroke-width="1.3"><ellipse cx="256" cy="105" rx="90" ry="22"/></g>
+<text x="256" y="109" text-anchor="middle" font-size="12" fill="#334155">Dang nhap / Dung thu</text>
+<g fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"><ellipse cx="256" cy="165" rx="90" ry="22"/></g>
+<text x="256" y="169" text-anchor="middle" font-size="12.5" fill="#1e3a8a">Lam bai Writing</text>
+<g fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"><ellipse cx="256" cy="225" rx="90" ry="22"/></g>
+<text x="256" y="229" text-anchor="middle" font-size="12.5" fill="#1e3a8a">Lam bai Reading</text>
+<g fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"><ellipse cx="256" cy="285" rx="90" ry="22"/></g>
+<text x="256" y="289" text-anchor="middle" font-size="12.5" fill="#1e3a8a">Lam bai Listening</text>
+<g fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"><ellipse cx="256" cy="345" rx="90" ry="22"/></g>
+<text x="256" y="349" text-anchor="middle" font-size="12.5" fill="#1e3a8a">Lam bai Speaking</text>
+<g fill="#eff6ff" stroke="#2563eb" stroke-width="1.3"><ellipse cx="256" cy="405" rx="90" ry="22"/></g>
+<text x="256" y="409" text-anchor="middle" font-size="12.5" fill="#1e3a8a">Chat AI Assistant</text>
+<g fill="#f8fafc" stroke="#64748b" stroke-width="1.3"><ellipse cx="256" cy="470" rx="90" ry="22"/></g>
+<text x="256" y="474" text-anchor="middle" font-size="12" fill="#334155">Xem dashboard / tien do</text>
+
+<g fill="#fffbeb" stroke="#d97706" stroke-width="1.3"><ellipse cx="443" cy="190" rx="71" ry="22"/></g>
+<text x="443" y="194" text-anchor="middle" font-size="12" fill="#92400e">AI cham diem</text>
+<g fill="#fffbeb" stroke="#d97706" stroke-width="1.3"><ellipse cx="443" cy="290" rx="71" ry="22"/></g>
+<text x="443" y="287" text-anchor="middle" font-size="11.5" fill="#92400e">AI goi y &amp;</text>
+<text x="443" y="301" text-anchor="middle" font-size="11.5" fill="#92400e">giai thich</text>
+<g fill="#f8fafc" stroke="#64748b" stroke-width="1.3"><ellipse cx="443" cy="470" rx="71" ry="22"/></g>
+<text x="443" y="467" text-anchor="middle" font-size="11.5" fill="#334155">Quan ly de thi</text>
+<text x="443" y="481" text-anchor="middle" font-size="11.5" fill="#334155">(CRUD)</text>
+
+<g fill="#fffbeb" stroke="#d97706" stroke-width="1.3"><rect x="572" y="300" width="98" height="42" rx="8"/></g>
+<text x="621" y="325" text-anchor="middle" font-size="12" fill="#92400e">Groq AI (LLM)</text>
+<g fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"><rect x="572" y="402" width="98" height="42" rx="8"/></g>
+<text x="621" y="427" text-anchor="middle" font-size="12" fill="#166534">MySQL DB</text>
+
+<text x="305" y="245" text-anchor="middle" font-size="10.5" fill="#b45309" transform="rotate(-58 305 245)">&#171;include&#187;</text>
+
+<line x1="150" y1="548" x2="178" y2="548" stroke="#64748b" stroke-width="1.3"/>
+<text x="184" y="552" font-size="11" fill="#64748b">lien ket</text>
+<line x1="250" y1="548" x2="278" y2="548" stroke="#b45309" stroke-width="1.3" stroke-dasharray="5 3"/>
+<text x="284" y="552" font-size="11" fill="#64748b">include (goi AI)</text>
+<text x="410" y="552" font-size="11" fill="#64748b">xanh = thao tac hoc - vang = AI</text>
+</svg>
