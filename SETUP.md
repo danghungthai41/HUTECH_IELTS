@@ -22,9 +22,23 @@ npm install
 ## 2. Cấu hình Cơ sở dữ liệu MySQL
 
 1. Khởi động máy chủ MySQL của bạn (ví dụ: cổng mặc định `3306`).
-2. Tạo một cơ sở dữ liệu mới cho dự án:
+2. **Cách nhanh nhất (khuyến nghị):** chạy script SQL có sẵn để tạo database + bảng + đề thi mẫu + tài khoản admin/demo:
+   ```bash
+   mysql -u root -p < database/ielts_web.sql
+   ```
+   Script tự tạo database `ielts_web`, toàn bộ bảng và dữ liệu mẫu (8 writing, 8 speaking, 10 reading, 10 listening).
+
+   Tài khoản tạo sẵn (nên đổi mật khẩu sau khi đăng nhập):
+   - Admin: `admin@ielts.local` / `admin123`
+   - Demo:  `demo@ielts.local` / `demo1234`
+
+3. *Cách thay thế (dùng Drizzle):* tự tạo database rỗng rồi đẩy schema + seed:
    ```sql
    CREATE DATABASE ielts_web CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   ```
+   ```bash
+   npm run db:push   # tạo bảng từ schema
+   npm run db:seed   # nạp đề thi mẫu
    ```
 
 ---
