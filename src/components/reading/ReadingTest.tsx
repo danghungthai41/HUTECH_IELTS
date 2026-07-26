@@ -141,15 +141,12 @@ export function ReadingTest({ data }: { data: ReadingData }) {
 
   return (
     <div className="flex h-[calc(100vh-64px)] overflow-hidden">
-      {/* Passage */}
       <div className="w-1/2 border-r overflow-y-auto p-6 bg-gray-50">
         <h2 className="font-bold text-lg mb-4">{data.title}</h2>
         <p className="text-sm leading-8 whitespace-pre-line">{data.passage}</p>
       </div>
 
-      {/* Questions */}
       <div className="w-1/2 flex flex-col overflow-hidden">
-        {/* Timer bar */}
         <div className="flex items-center justify-between px-6 py-3 border-b bg-white">
           <span className="font-medium text-sm">{data.questions.length} câu hỏi</span>
           <div className="flex items-center gap-2 font-mono font-bold text-lg">
@@ -198,7 +195,6 @@ export function ReadingTest({ data }: { data: ReadingData }) {
                         <XCircle className="w-4 h-4 text-red-500" />
                       ))}
                       
-                      {/* AI Support Button */}
                       <Button
                         variant="ghost"
                         size="sm"
@@ -220,7 +216,6 @@ export function ReadingTest({ data }: { data: ReadingData }) {
                   </div>
                 </div>
 
-                {/* Options */}
                 {q.options ? (
                   <div className="pl-8 space-y-2">
                     {q.options.map((opt) => {
@@ -266,7 +261,6 @@ export function ReadingTest({ data }: { data: ReadingData }) {
                   </div>
                 )}
 
-                {/* AI Explanation / Hint Box */}
                 {aiResults[q.id] && (
                   <div className="pl-8 mt-2 animate-in fade-in slide-in-from-top-1 duration-200">
                     <div className="bg-blue-50/50 border border-blue-100/30 rounded-xl p-3.5 text-xs leading-relaxed text-slate-700">
